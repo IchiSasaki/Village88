@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.container {
+    width: 745px;
+    height: 965px;
+    background-image: linear-gradient(#c6d2de, white, #c6d2de);
+    margin: 0px auto;
+    background-color: rgb(255, 255, 111);
+}
+div.container header img {
+    width: 219px;
+    height: 194px;
+    padding: 26px 33px 0px 14px;
+    display: inline-block;
+}
+div.container header div.intro {
+    display: inline-block;
+    font-family: "Arial Rounded MT Bold";
+    vertical-align: top;
+    padding: 40px 0px 0px 0px;
+}
+div.container header div.intro h1 {
+    color: #2d4767;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+div.container header div.intro h2 {
+    color: black;
+    padding: 3px 0px 32px 2px;
+    width: 455px;
+    border-bottom: 3px solid #2d4767;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+div.container header div.intro p {
+    color: #2e2f30;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0px 20px 0px;
+}
+div.container article {
+    background-color: #e0e2e6;
+    height: 235px;
+    margin: 20px 20px 20px 13px;
+    padding: 13px 26px 10px 26px;
+}
+div.container article h3 {
+    color: #403934;
+    text-align: center;
+    font-family: "Arial Rounded MT Bold";
+    text-transform: uppercase;
+}
+div.container article p {
+    color: #020202;
+    text-align: justify;
+    font-size: 18px;
+    margin: 15px 0px 15px 0px;
+}
+div.container section {
+    margin: 0px 20px 0px 20px;
+}
+div.container section div.languages {
+    display: inline-block;
+    vertical-align: top;
+    width: 333px;
+    margin: 10px 0px 0px 10px;
+}
+div.container section h4 {
+    text-align: center;
+    color: #443c38;
+    font-size: 21px;
+    font-family: "Arial Rounded MT Bold";
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-bottom: 16px;
+}
+div.container section div.languages img {
+    width: 16.5%;
+    margin: 9px 5px 0px 0px;
+}
+div.container section div.projects {
+    display: inline-block;
+    background-image: linear-gradient(rgb(204, 202, 202), white, rgb(189, 189, 189));
+    color: #443c38;
+    width: 298px;
+    height: 370px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+    font-size: 16.3px;
+}
+div.container section div.projects h5 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 27px;
+}
+div.container footer {
+    text-align: center;
+    margin-top: 25px;
+}
+div.container footer img {
+    width: 3%;
+    vertical-align: bottom;
+}
+div.container footer p {
+    display: inline-block;
+    color: #020202;
+    font-family: "Arial";
+    text-decoration: underline;
+    font-size: 15px;
+    margin-right: 8px;
+}

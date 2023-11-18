@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pizza Order Form</title>
+    </head>
+    <form action="process.php" method="post">
+        <h1>Pizza Order Form</h1>
+        <label>First Name:  <input type="text" name="firstname" /></label>
+        <p>
+            <label>Last Name:  <input type="text" name="lastname" /></label>
+        </p>
+        <p>
+            <label>Email Address:  <input type="text" name="email" /></label>
+        </p>
+        <p>
+            <label>Contact Number:  <input type="text" name="contact" /></label>
+        </p>
+        <p>
+            <label>Preferred Delivery Date:  <input type="date" name="date" /></label>
+        </p>
+
+        <p>Size:</p>
+        <label><input type="radio" name="size" value="small" /> Small</label>
+        <label><input type="radio" name="size" value="medium" /> Medium</label>
+        <label><input type="radio" name="size" value="large" /> Large</label>
+
+        <p>Flavor:</p>
+        <p>
+            <label><input type="checkbox"  name="flavor" value="hawaiian"  /> Hawaiian (Php 150.00)</label>
+            <label>
+                <select name="amount">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label><input type="checkbox" name="flavor" value="pepperoni" /> Pepperoni (Php 140.00)</label>
+            <label>
+                <select name="amount">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label><input type="checkbox" name="flavor" value="vegetable" /> Vegetable (Php 130.00)</label>
+            <label>
+                <select name="amount">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+        </p>
+    
+        <p>
+            <label>Credit Card Number:  <input type="text" name="cc_number" /></label>
+        </p>
+        <p>
+            <label>PIN:  <input type="password" name="pin" /></label>
+        </p>
+
+        <p>Additional Note:</p>
+        <textarea name="suggestion"></textarea>
+
+        <p><input type="submit" value="Submit Order" /></p>
+    </form>
+</html>

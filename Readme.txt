@@ -1,0 +1,1 @@
+A list of projects I've done while participating at Village88 Coding Bootcamp

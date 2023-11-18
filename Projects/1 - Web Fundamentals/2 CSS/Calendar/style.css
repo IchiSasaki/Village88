@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#background {
+    background-color: white;
+    width: 1421px;
+    height: 716.5px;
+    margin: 0px auto;
+}
+#body {
+    padding: 50px;
+}
+h1 {
+    display: inline-block;
+    color: black;
+    font-size: 50px;
+    vertical-align: top;
+    margin: 40px 314px 0px 314px;
+}
+#dates {
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+}
+p {
+    display: inline-block;
+    text-align: center; 
+    width: 63px;
+    height: 35px;
+    padding: 10px 49px 10px 48px;
+    margin: 0px 21px 15px 0px;
+    border: 2px solid black;
+}
+.sun {
+    background-color: #5b9bd5;
+}
+.sat {
+    background-color: #a9d08e;
+    margin-right: 0px;
+    vertical-align: top;
+}
+.days {
+    font-weight: bold;
+}
+.blank {
+    background-color: #e7e6e6;
+    width: 63px;
+    height: 35px;
+    border: 2px solid white;
+}
+.number {
+    vertical-align: top;
+}
+#b {
+    font-weight: bold;
+}

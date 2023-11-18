@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.container{
+    width: 721px;
+    height: 965px;
+    margin: 0px auto;
+    background-color: white;
+    color: black;
+}
+div.accnav {
+    padding: 0px 15px 1px 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #798988;;
+}
+div.accnav ul {
+    display: inline-block;
+    font-size: 9.5px;
+    vertical-align: top;
+}
+div.accnav ul li {
+    display: inline-block;
+}
+div.accnav ul.sign-in li {
+    padding: 5px 11px 0px 0px;
+}
+ul.cart {
+    margin-left: 164px;
+}
+ul.cart li.ebay {
+    padding-left: 8px;
+    padding-right: 27px;
+}
+ul.cart li.img {
+    padding-top: 2px;
+    width: 20px;
+    height: 19px;
+}
+ul.cart li {
+    padding: 5px 14px 0px 0px;
+    vertical-align: top;
+}
+div.searchnav {
+    padding: 1px 24px 1px 19px;
+    border-top: 1px solid #ebebeb;
+    border-bottom:  1px solid #ebebeb;;
+}
+div.searchnav div.searchbar {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0.5px 2px 0.5px 2px;
+    margin-left: 73px;
+    vertical-align: top;
+    width: 331px;
+    margin-top: 10px;
+}
+div.searchbar p {
+    display: inline-block;
+    color: #a0a0a0;
+    font-size: 13px;
+    margin-top: 4px;
+    vertical-align: top;
+}
+div.searchbar img {
+    vertical-align: top;
+}
+div.searchbar img.s_icon {
+    padding: 7px 3px 7px 10px;
+}
+div.searchbar div.categories {
+    display: inline-block;
+    margin-left: 85px;
+    padding: 3px 0px 4px 10px;
+    border-left: 1px solid #e1e1e1;
+}
+div.categories p {
+    font-size: 9px;
+}
+div.categories img {
+    padding: 5px 5px 5px 28px;
+}
+div.searchnav p.s_button {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    padding: 8px 45px 8px 45px;
+    background-color: #3665f3;
+    color: white;
+    font-size: 11px;
+}
+div.searchnav p.advanced {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 18px;
+    font-size: 8.5px;
+    color: #babec1;
+}
+ul.site_nav {
+    margin: 1px 10px 0px 35px;
+}
+ul.site_nav li{
+    list-style-type: none;
+    display: inline-block;
+    color: #798988;;
+    font-size: 9.5px;
+    padding: 0px 19.22px 3px 0px;
+}
+ul.site_nav li.highlighted {
+    border-bottom: 2px solid black;
+    padding-right: 0px;
+    margin-right: 19.22px;
+}
+div.banner {
+    width: 698px;
+    height: 208px;
+    background-color: #70e2e3;
+    padding: 10px 0px 15px 23px;
+    display: inline-block;
+}
+div.banner div.ads {
+    display: inline-block;
+    margin-right: 20px;
+}
+div.banner div.head p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 1px;
+}
+
+div.buy_button {
+    border: 1px solid black;
+    padding: 5px 0px 5px 10px;
+    margin-top: 18px;
+    height: 20px;
+    width: 89px;
+}
+div.buy_button p {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    padding: 3px 2px 0px 1px;
+    font-size: 12px;
+}
+div.buy_button img {
+    width: 20%;
+}
+div.promote {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 36px;
+}
+div.promote div.promos {
+    width: 445px;
+}
+div.promos p {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 2px 0px 2px;
+    margin-bottom: px;
+
+}
+div.promote div.promos img {
+    width: 3%;
+    vertical-align: top;
+    padding-top: 3px;
+    margin-right: 50px;
+}
+div.promote div.promos p.headphone {
+    padding: 0px 2px 0px 163px;
+    
+}
+div.promote div.promos img.ssd {
+    margin-right: 0px;
+}
+
+div.sales p {
+    vertical-align: top;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    margin: 35px 0px 5px 22px;
+    border-right: 1px solid #f7f7f7;
+    font-size: 18px;
+    font-weight: 500;
+}
+div.sales img.seeall {
+    margin-top: 33px;
+}
+div.sales img.products {
+    margin: 2px 0px 50px 36px;
+}
+
+div.deals p {
+    vertical-align: top;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    margin: 27px 0px 5px 22px;
+    border-right: 1px solid #f7f7f7;
+    font-size: 18px;
+    font-weight: 500;
+}
+div.deals img.seeall {
+    margin-top: 25px;
+}
+div.deals img.products {
+    padding: 12px 96px 60px 20px;
+    border-bottom: 1px solid #d8d8d8;
+}
+footer {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: #6c686f;
+}
